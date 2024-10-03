@@ -2,8 +2,6 @@ import { SchemeColor } from "../SchemeColor/SchemeColor"
 import './palette.css'
 import React from 'react';
 
-console.log(SchemeColor)
-
 export const Palette = ({paletteData}) => {
   const schemeClass = `palette-scheme palette-scheme--${paletteData.direction}`
 
